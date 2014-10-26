@@ -8,7 +8,7 @@ This image can be used to connect to postgres databases using command line tools
 You don't need to build this image yourself, you can pull a pre-built image from docker hub by typing:
 `docker pull yorkshirekev/pg-client`
 
-Connect as a regular user:
+Start the container (this will give you a bash shell from where you can run psql etc):
 
 `docker run -it --name pg-client yorkshirekev/pg-client`
 
